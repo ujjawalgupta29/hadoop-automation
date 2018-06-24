@@ -1,0 +1,40 @@
+<form action="cgi-bin/sethadoop.py" >
+
+<h1 style="font-family:verdana; ">WELCOME TO MY TOOLS</h1>
+</br>
+Select task to be perform: &nbsp
+<select name="cmd">
+<option value="ml">Set hadoop master local</option>
+<option value="mr">Set hadoop master remote</option>
+<option value="sl">Set hadoop slave local</option>
+<option value="sr">Set hadoop slave remote</option>
+</select>
+</br>
+</br>
+
+Enter Master IP:
+<input type="text" name="mip" />
+</br>
+</br>
+Enter Username:
+<input type="text" name="user" />
+</br>
+</br>
+For Remote slave enter slave IP:
+<input type="text" name="sip" />
+</br>
+(if required)
+</br>
+</br>
+Enter Remote's Password:
+<input type="password" name="pwd" />
+</br>
+</br>
+Enter path with Directory name:
+<input type="text" name="fname" />
+</br>
+</br>
+</br>
+&nbsp &nbsp &nbsp &nbsp<input type="submit" name="Run" />
+</form>
+
